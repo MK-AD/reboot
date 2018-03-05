@@ -12,9 +12,10 @@
 	}
 
 .image {
-	height: 180px;
-	width: 180px;
-	float: left; 
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin: 5px;
 }
 
 
@@ -83,6 +84,7 @@ a {
   transition:color .2s ease-out, background 1s ease-in;
 }
 @media only screen and (min-width: 600px) {
+
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
     .col-m-2 {width: 16.66%;}
@@ -98,13 +100,18 @@ a {
     .col-m-12 {width: 100%;}
 	
 		.header {
-background-color: black;
+background-color: red;
 font-size: 46px;
 text-align: center;
 vertical-align: middle;
 line-height: 120px;
 }
-
+.image {
+    height: 200px;
+    width: 46%;
+    float: left;
+    margin: 5px;
+}
 
 
 }
@@ -126,7 +133,7 @@ line-height: 120px;
 	width: 32%;
 	}	
 		.header {
-	background-color: black;
+	background-color: green;
 	font-size: 64px;
 	text-align: center;
 	vertical-align: middle;
