@@ -4,25 +4,31 @@
     width: 100%;
 	
 }
+.clear {
+	clear: both;
+}
 
+.image {
+	height: 100%;
+}
+	
 .tas {
 	width:100%;
 	text-align: center;
 			line-height: 40px;
 	}
 
-.image {
+.image_porto {
     height: 200px;
     width: 100%;
     float: left;
     margin: 5px;
 }
 
-
 .w3-content {
-    max-width: 980px;
     margin: auto;
 }
+
 .w3-container {
     padding: 0.01em 16px;
 }
@@ -106,13 +112,16 @@ text-align: center;
 vertical-align: middle;
 line-height: 120px;
 }
-.image {
+.image_porto {
     height: 200px;
     width: 46%;
     float: left;
     margin: 5px;
 }
 
+.w3-content {
+	max-width: 650px;
+}
 
 }
 @media only screen and (min-width: 768px) {
@@ -139,5 +148,17 @@ line-height: 120px;
 	vertical-align: middle;
 	line-height: 180px;
 }
-} 
-	}
+
+.w3-content {
+	max-width: 800px;
+}
+	
+
+.image_porto {
+    height: 200px;
+    width: 46%;
+    float: left;
+    margin: 5px;
+}
+
+}
