@@ -4,12 +4,18 @@
     width: 100%;
 	
 }
+
+
 .clear {
 	clear: both;
 }
 
 .image {
-	height: 100%;
+	width: 100%;
+}
+
+.image > img {
+	width: 100%;
 }
 	
 .tas {
@@ -18,11 +24,9 @@
 			line-height: 40px;
 	}
 
-.image_porto {
-    height: 200px;
-    width: 100%;
-    float: left;
-    margin: 5px;
+.image_porto > img {
+	width: 100%;
+	    margin-bottom: 10px;
 }
 
 .w3-content {
@@ -112,9 +116,9 @@ text-align: center;
 vertical-align: middle;
 line-height: 120px;
 }
-.image_porto {
-    height: 200px;
-    width: 46%;
+.image_porto > img {
+    width: 48%;
+    margin-bottom: 10px;
     float: left;
     margin: 5px;
 }
@@ -154,11 +158,6 @@ line-height: 120px;
 }
 	
 
-.image_porto {
-    height: 200px;
-    width: 46%;
-    float: left;
-    margin: 5px;
-}
+
 
 }
