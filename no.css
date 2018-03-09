@@ -1,10 +1,19 @@
 
+
  /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
 	
 }
 
+.footer {
+		border-top: solid 1px #ccc;
+}
+
+.image_3head > img {
+	width: 100%;
+	float: left;
+}
 
 .clear {
 	clear: both;
@@ -24,6 +33,8 @@
 			line-height: 40px;
 	}
 
+
+	
 .image_porto > img {
 	width: 100%;
 	    margin-bottom: 10px;
@@ -93,7 +104,8 @@ a {
   /* ...and now override with proper CSS property */
   transition:color .2s ease-out, background 1s ease-in;
 }
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 425px) {
 
     /* For tablets: */
     .col-m-1 {width: 8.33%;}
@@ -117,14 +129,18 @@ vertical-align: middle;
 line-height: 120px;
 }
 .image_porto > img {
-    width: 48%;
+    width: 50%;
     margin-bottom: 10px;
     float: left;
-    margin: 5px;
+
 }
 
 .w3-content {
 	max-width: 650px;
+}
+.image_3head > img {
+	width: 33.3%;
+	float: left;
 }
 
 }
@@ -151,6 +167,13 @@ line-height: 120px;
 	text-align: center;
 	vertical-align: middle;
 	line-height: 180px;
+}
+
+.image_porto > img {
+    width: 50%;
+    margin-bottom: 10px;
+    float: left;
+
 }
 
 .w3-content {
